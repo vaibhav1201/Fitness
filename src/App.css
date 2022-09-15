@@ -44,7 +44,7 @@ padding: 0px 34px;
 .photos{
   display: flex;
   justify-content: space-around;
-  padding: 58px 33px;
+  padding: 133px 33px;
   color: aliceblue;
 }
 .classic{
@@ -91,12 +91,13 @@ padding: 0px 34px;
 .grid{
   display: flex;
 }
-div.diff{
+.diff{
+  display: flex;
   width: 50%;
 }
 .text{
   width: 50%;
-  padding: 135px 95px;
+  padding: 94px 95px;
 }
 .text p{
   color: orange;
@@ -116,11 +117,185 @@ div.diff{
 }
 .fitness{
   background-image: url('E:\Fitness\gym\fitness-woman-with-measurement-tape_23-2148173266_auto_x2.jpg') ;
+  background-repeat:no-repeat ;
   height: 500px;
-  width: 50%;
+  width: 47%;
   padding: 3px 3px;
-  
+  position: relative;
+  top: 12rem;
 }
 .weight{
+ background-image: url(E:\Fitness\gym\side-view-beautiful-muscular-woman-running-treadmill_109710-1641_auto_x2.jpg);
+ background-repeat:no-repeat ;
+ height: 400px;
+ width: 400px;
+ padding: 3px 3px;
+
+}
+.weightt{
+  background-image: url(E:\Fitness\gym\brunette-woman-doing-battle-rope-training_7502-4793_auto_x2.jpg);
+  background-repeat:no-repeat ;
+  height: 400px;
+  width: 400px;
+  padding: 13px 3px;
+}
+.classes{
+  margin: 100px 0px;
+  color: white;
+  background-color: black;
+  padding: 83px 4px;
+}
+.classes h1{
+  text-align: center;
+  font-size: 75px;
+}
+.classes p{
+  font-size: 35px;
+  padding: 10px 8px;
+}
+.upper{
+  display: flex;
+  padding: 10px 42px;
+}
+.upperOne{
+  background-image: url(E:\Fitness\gym\src\fit-young-woman-lifting-barbells-looking-focused-working-out-gym_155003-5353.jpg);
+  height: 500px;
+  width: 600px;
+}
+.upperOne p{
+  display: flex;
+  justify-content: center;
+ position: relative; 
+ top: 24rem;
  
+}
+.upperTwo{
+  background-image: url(E:\Fitness\gym\woman-doing-exercise-gym_116124-203.jpg);
+  height: 500px;
+  width: 600px;
+}
+.upperTwo p{
+  display: flex;
+  justify-content: center;
+  position: relative; 
+ top: 24rem;
+}
+.upperThree{
+  background-image: url(E:\Fitness\gym\fitness-days-gorgeous-blonde-woman-gym-her-weekend-time_146671-17084.jpg);
+  height: 500px;
+  width: 600px;
+}
+.upperThree p{
+  display: flex;
+  justify-content: center;
+  position: relative; 
+ top: 24rem;
+}
+.lower{
+  display: flex;
+  padding: 10px 42px;
+}
+.lowerOne{
+  background-image: url(E:\Fitness\gym\woman-exercising-with-dumbbell-muscle-gym_116317-294.jpg);
+  height: 500px;
+  width: 600px;
+}
+.lowerOne p{
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  top: 24rem;
+}
+.lowerTwo{
+  background-image: url(E:\Fitness\gym\senior-woman-doing-abs-yoga-mat_23-2148282954.jpg);
+  height: 500px;
+  width: 600px;
+}
+.lowerTwo p {
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  top: 24rem;
+}
+.lowerThree{
+  background-image: url(E:\Fitness\gym\keep-holding-gorgeous-blonde-woman-gym-her-weekend-time_146671-16987.jpg);
+  height: 500px;
+  width: 600px;
+}
+.lowerThree p {
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  top: 24rem;
+}
+.teams{
+  padding: 2px 60px;
+}
+.teams h1{
+text-align: center;
+font-size: 6rem;
+}
+.teams p{
+  text-align: center;
+font-size: 2em;
+}
+.threePhotos{
+  display: flex;
+  padding: 70px 10px;
+}
+a{
+  padding: 0rem 4rem;
+}
+.onePhoto{
+  text-align: center;
+  padding: 2px 65px;
+}
+.twoPhoto{
+  text-align: center;
+  padding: 2px 65px;
+
+}
+.threePhoto{
+  text-align: center;
+  padding: 2px 65px;
+}
+.teambtn{
+  text-align: center;
+  padding: 4px 0px;
+}
+.teambtn button{
+  background-color: skyblue;
+ height: 55px;
+ border-radius: 14px;
+ font-size: larger;
+}
+.testimonials{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.four{
+  text-align: center;
+  color: white;
+  background-color: black;
+ 
+}
+.slide{
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 2rem 6rem;
+}
+.lorem{
+  font-size: 26px;
+  padding: 0px 50px;
+}
+.roundImage img{
+  border-radius: 50%;
+  border: 3px solid skyblue;
+  height: 100px;
+  width: 100px;
+}
+.fullThree{
+  margin: 15px 0px;
 }
