@@ -6,13 +6,15 @@ export default function Three() {
     <>
      <div className="fullThree">
      <div className="classes">
-        <h1 id="classes">Our Classes</h1>
+      <div className="hp">
+      <h1 id="classes">Our Classes</h1>
         <p>
           If you run a fitness gym, this is one slogan that can bring customers
           in. No one likes having to drive miles out of their way to go to the
           gym. It is always easier to have a gym that is actually close to home.
           Your body do what your brain says.
         </p>
+      </div>
         <div className="sixPhotos">
           <div className="upper">
             <div className="upperOne">

@@ -280,6 +280,7 @@ font-size: 6rem;
   color: black;
   text-align: center;
 font-size: 2em;
+margin: 4rem 10rem;
 }
 .threePhotos{
   display: flex;
@@ -316,6 +317,7 @@ opacity: 0.5;
 .teambtn{
   text-align: center;
   padding: 4px 0px;
+  margin-bottom: 7rem;
 }
 .teambtn button{
   background-color: skyblue;
@@ -419,12 +421,12 @@ background-color: black;
   font-size: 18px;
 }
 .news button{
-  padding: 20px 25px;
+  padding: 10px 35px;
   margin: 50px 4px;
   background-color: skyblue;
 border: 0px solid skyblue;
-border-radius: 25px;
-font-size: 36px;
+border-radius: 17px;
+font-size: 32px;
 }
 .news button:hover{
   color: white;
@@ -666,4 +668,13 @@ font-size: 20px;
   color: grey;
   text-align: center;
   margin: 2rem 0rem;
+}
+.hp p{
+  font-size: 35px;
+  padding: 7rem 25rem;
+  text-align: center;
+  font-family: auto;
+}
+.formImage{
+  margin-top: 1rem;
 }
