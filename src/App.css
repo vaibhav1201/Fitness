@@ -3,6 +3,13 @@
   font-size: 27px;
   padding: 15px;
 }
+.logo img{
+  border-radius: 50%;
+  border: 0px;
+  height: 60px;
+  width: 60px;
+  margin: 0px 10px;
+}
 ul{
   display: flex;
   justify-content: center;
@@ -15,7 +22,7 @@ li{
 }
 .rest{
   color: black;
-  padding: 15px;
+  padding: 27px 15px;
 }
 .rest:hover{
   color: blue;
@@ -35,6 +42,13 @@ height: 875px;
 text-align: center;
 padding: 0px 34px;
 }
+.head h1{
+  font-size: 4.5rem;
+  margin: 2rem 0rem;
+}
+.head p{
+  font-size: 24px;
+}
 .head{
   display: flex;
   align-items: center;
@@ -44,7 +58,7 @@ padding: 0px 34px;
 .photos{
   display: flex;
   justify-content: space-around;
-  padding: 133px 33px;
+  padding: 12rem 20rem;
   color: aliceblue;
 }
 .classic{
@@ -55,6 +69,7 @@ padding: 0px 34px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0px 0px 25px chocolate;
 }
 .standard{
   background-image: url(E:\Fitness\gym\fitness-days-gorgeous-blonde-woman-gym-her-weekend-time_146671-17084.jpg);
@@ -64,8 +79,7 @@ padding: 0px 34px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-
+  box-shadow: 0px 0px 25px purple;
 }
 .premium{
   background-image: url(E:\Fitness\gym\intensive-workout-with-kettlebell_1098-14426.jpg);
@@ -75,18 +89,38 @@ padding: 0px 34px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0px 0px 25px blue;
 }
 .classic button{
   color: white;
   background-color: orange;
+  border: 0px;
+  border-radius: 7px;
+  padding: 2px 15px;
+}
+.classic button:hover{
+  color: beige;
+  background-color: chocolate;
 }
 .standard button{
   color: white;
   background-color: purple;
+  border: 0px;
+  border-radius: 7px;
+  padding: 2px 15px;
+}
+.standard button:hover{
+  background-color: blueviolet;
 }
 .premium button{
   color: white;
   background-color: skyblue;
+  border: 0px;
+  border-radius: 7px;
+  padding: 2px 15px;
+}
+.premium button:hover{
+  background-color: darkcyan;
 }
 .grid{
   display: flex;
@@ -105,6 +139,13 @@ padding: 0px 34px;
 .text button{
   background-color: skyblue;
   border-radius: 10px;
+  border: 0px;
+  padding: 5px 25px;
+  font-size: x-large;
+}
+.text button:hover{
+  color: white;
+  background-color: cadetblue;
 }
 .text h4{
   color: orange;
@@ -236,12 +277,16 @@ text-align: center;
 font-size: 6rem;
 }
 .teams p{
+  color: black;
   text-align: center;
 font-size: 2em;
 }
 .threePhotos{
   display: flex;
-  padding: 70px 10px;
+  padding: 70px 110px;
+}
+.threePhotos p{
+  color: black;
 }
 a{
   padding: 0rem 4rem;
@@ -250,14 +295,23 @@ a{
   text-align: center;
   padding: 2px 65px;
 }
+.onePhoto:hover{
+  opacity: 0.5;
+}
 .twoPhoto{
   text-align: center;
   padding: 2px 65px;
 
 }
+.twoPhoto:hover{
+  opacity: 0.5;
+}
 .threePhoto{
   text-align: center;
   padding: 2px 65px;
+}
+.threePhoto:hover{
+opacity: 0.5;
 }
 .teambtn{
   text-align: center;
@@ -267,12 +321,21 @@ a{
   background-color: skyblue;
  height: 55px;
  border-radius: 14px;
- font-size: larger;
+ border: 0px;
+ padding: 0px 25px;
+ font-size: 30px;
+}
+.teambtn button:hover{
+  color: white;
+  background-color: cadetblue;
 }
 .testimonials{
   text-align: center;
   color: white;
   background-color: black;
+}
+.testimonials h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .four{
   text-align: center;
@@ -298,4 +361,297 @@ a{
 }
 .fullThree{
   margin: 15px 0px;
+}
+.news{
+ text-align: center;
+ margin: 110px 0px;
+}
+.newsPhotos{
+display: flex;
+padding: 3px 300px;
+}
+.oneNews{
+  margin: 2px 15px;
+padding: 40px 65px;
+color: skyblue;
+background-color: black;
+}
+.oneNews:hover{
+  box-shadow: 0px 0px 25px blue;
+}
+.oneNews h3{
+  padding: 60px 1px;
+}
+.oneNews p{
+  color: lightyellow;
+  font-size: 18px;
+}
+.twoNews{
+  margin: 2px 15px;
+ padding: 40px 65px;
+ color: skyblue;
+  background-color: black;
+}
+.twoNews:hover{
+  box-shadow: 0px 0px 25px blue;
+}
+.twoNews h3{
+  padding: 60px 1px;
+}
+.twoNews p{
+  color: lightyellow;
+  font-size: 18px;
+}
+.threeNews{
+  margin: 2px 15px;
+  padding: 40px 65px;
+  color: skyblue;
+  background-color: black;
+}
+.threeNews:hover{
+ box-shadow: 0px 0px 25px blue;
+}
+.threeNews h3{
+  padding: 60px 1px;
+}
+.threeNews p{
+  color: lightyellow;
+  font-size: 18px;
+}
+.news button{
+  padding: 20px 25px;
+  margin: 50px 4px;
+  background-color: skyblue;
+border: 0px solid skyblue;
+border-radius: 25px;
+font-size: 36px;
+}
+.news button:hover{
+  color: white;
+  background-color: cadetblue;
+}
+.myNav h3{
+  display: inline;
+  position: relative;
+  top: 2rem;
+}
+.myNews{
+  padding: 20px 0px;
+}
+.new{
+  text-align: center;
+}
+/* .myLogo{
+  font-size: 2rem;
+} */
+.whatsapp{
+  padding: 0px 60px;
+  color: black;
+}
+.whatsapp:hover{
+  color: blue;
+}
+.contactUs{
+  display: flex;
+  color: white;
+  background-color: rgb(33,37,41);
+}
+.form{
+  text-align: center;
+padding: 80px 240px;
+width: 50%;
+margin: 5rem 0rem;
+}
+.form h1{
+  padding: 5rem 0rem;
+  font-size: 5rem;
+}
+option{
+  color: aliceblue;
+  background-color: rgba(0, 0, 128, 0);
+}
+.form select{
+  border: 3px solid skyblue;
+  font-size: 22px;
+}
+select{
+  color: white;
+}
+textarea{
+  color: white;
+  background-color: rgba(0, 0, 128, 0);
+  margin: 15px 0px;
+  border: 3px solid skyblue;
+font-size: 22px;
+}
+.email input{
+  background-color: rgba(0, 0, 128, 0);
+  width: 36rem;
+  height: 49px;
+  color: white;
+  border: 3px solid skyblue;
+  border-radius: 5px;
+  margin: 15px 0px;
+  font-size: 22px;
+}
+.form button{
+  width: 36rem;
+  height: 49px;
+  background-color: skyblue;
+  font-size: 31px;
+  border: 0px;
+  border-radius: 12px;
+  margin: 12px 0px;
+}
+.form button:hover{
+  color: white;
+  background-color: cadetblue;
+}
+.info{
+  margin: 50px 0px;
+}
+.social{
+  color: skyblue;
+}
+.social svg:hover{
+  color: white;
+}
+.down{
+  color: white;
+  /* background-color: rgba(0, 0, 128, 0); */
+  background-color: rgb(33,37,41);
+display: flex;
+/* padding: 20rem 0rem; */
+padding-bottom: 20rem;
+}
+.lastLogo{
+  display: flex;
+  position: relative;
+  top: 15rem;
+}
+.lastLogo img{
+  border-radius: 50%;
+  border: 0px;
+  height: 60px;
+  width: 60px;
+  margin: 0px 10px;
+}
+.quickContacts{
+  margin: 0rem 25rem;
+}
+.popularTags{
+  margin: 0rem 5rem;
+}
+.quickContacts h4{
+  margin: 4rem 0rem;
+}
+.quickContacts svg{
+  color: skyblue;
+}
+.quickContacts h4, p{
+  color: gainsboro;
+}
+.popularButtons{
+  margin: 50px 10px;
+  font-size: 30px;
+}
+.wcs button{
+  color: white;
+background-color: rgb(33,37,41);
+border: 1px solid grey;
+padding: 0px 10px;
+}
+.wcs button:hover{
+  color: white;
+  background-color: skyblue;
+}
+.tbs button{
+  margin: 10px 4px;
+  color: white;
+  background-color: rgb(33,37,41);
+  border: 1px solid grey;
+  padding: 0px 10px;
+}
+.tbs button:hover{
+  color: white;
+  background-color: skyblue;
+}
+.ngp button{
+  color: white;
+background-color: rgb(33,37,41);
+border: 1px solid grey;
+padding: 0px 10px;
+}
+.ngp button:hover{
+  color: white;
+  background-color: skyblue;
+}
+.c{
+  margin: 0px 10px;
+}
+.b{
+  margin: 0px 10px;
+
+}
+.g{
+  margin: 0px 10px;
+
+}
+.fulfilled{
+  display: flex;
+  margin: 25px 5px;
+}
+.customizeIcon{
+  height: 30px;
+  width: 30px;
+  background-color: skyblue;
+  text-align: center;
+  color: white;
+}
+.customizeIcon svg{
+  color: white;
+}
+.customizedIcon2{
+  height: 30px;
+  width: 30px;
+  background-color: skyblue;
+  text-align: center;
+  color: white;
+  margin: 0px 10px;
+}
+.customizedIcon2 svg{
+  color: white;
+
+}
+.customizedIcon3{
+  height: 30px;
+  width: 30px;
+  background-color: skyblue;
+  text-align: center;
+  color: white;
+}
+.customizedIcon3 svg{
+  color: white;
+
+}
+
+.atLast{
+  height: 8rem;
+  width: 100%;
+  background-color: rgb(33,37,41);
+}
+.lastNav{
+  color: white;
+  height: 3rem;
+  width: 100%;
+  background-color: skyblue;
+  /* margin: 4rem 0rem; */
+}
+.lastNav li{
+  padding: 3px 5px;
+}
+.copyright h5{
+  color: grey;
+  text-align: center;
+  margin: 2rem 0rem;
 }
