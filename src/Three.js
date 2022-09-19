@@ -27,7 +27,9 @@ export default function Three() {
             </div>
           </div>
           <div className="lower">
-            <div className="lowerOne"><p>Body Attack</p></div>
+            <div className="lowerOne">
+            <p>Body Attack</p>
+            </div>
             <div className="lowerTwo"><p>Yoga pilates</p></div>
             <div className="lowerThree"><p>Weight lifting</p></div>
           </div>

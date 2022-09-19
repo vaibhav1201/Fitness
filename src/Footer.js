@@ -40,19 +40,19 @@ export default function Footer() {
 <h1>Popular tags</h1>
 <div className="popularButtons">
   <div className="wcs">
-    <button>work out</button>
-    <button className='c'>cross fit</button>
-    <button>schedule</button>
+    <button>WORKOUT</button>
+    <button className='c'>CROSSFIT</button>
+    <button>SCHEDULE</button>
   </div>
   <div className="tbs">
-    <button>Trainers</button>
-    <button className='b'>Boxing</button>
-    <button>Schedule</button>
+    <button>TRAINERS</button>
+    <button className='b'>BOXING</button>
+    <button>SCHEDULE</button>
   </div>
   <div className="ngp">
-    <button>Nutrition</button>
-    <button className='g'>Gym</button>
-    <button>Plans</button>
+    <button>NUTRITION</button>
+    <button className='g'>GYM</button>
+    <button>PLANS</button>
   </div>
 </div>
     </div>

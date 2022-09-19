@@ -32,8 +32,8 @@ a{
   color: black;
 }
 a:hover{
-  color: white;
-  text-shadow: 0px 0px 3px blue;
+  color: black;
+  text-shadow: 0px 0px 4px red;
 }
 .head{
   color: white;
@@ -493,6 +493,7 @@ font-size: 22px;
   border-radius: 5px;
   margin: 15px 0px;
   font-size: 22px;
+  padding: 0px 5px;
 }
 .form button{
   width: 36rem;
@@ -513,6 +514,10 @@ font-size: 22px;
 .social{
   color: skyblue;
 }
+.social svg{
+  height: 20px;
+  width: 20px;
+}
 .social svg:hover{
   color: white;
 }
@@ -528,6 +533,7 @@ padding-bottom: 20rem;
   display: flex;
   position: relative;
   top: 15rem;
+  margin-left: 12rem;
 }
 .lastLogo img{
   border-radius: 50%;
@@ -537,7 +543,9 @@ padding-bottom: 20rem;
   margin: 0px 10px;
 }
 .quickContacts{
-  margin: 0rem 25rem;
+  margin: 0rem 30rem;
+  margin-left: 30rem;
+  margin-right: 10rem;
 }
 .popularTags{
   margin: 0rem 5rem;
@@ -547,6 +555,7 @@ padding-bottom: 20rem;
 }
 .quickContacts svg{
   color: skyblue;
+  text-align: center;
 }
 .quickContacts h4, p{
   color: gainsboro;
@@ -559,7 +568,8 @@ padding-bottom: 20rem;
   color: white;
 background-color: rgb(33,37,41);
 border: 1px solid grey;
-padding: 0px 10px;
+padding: 10px 20px;
+font-size: 20px;
 }
 .wcs button:hover{
   color: white;
@@ -570,7 +580,8 @@ padding: 0px 10px;
   color: white;
   background-color: rgb(33,37,41);
   border: 1px solid grey;
-  padding: 0px 10px;
+  padding: 10px 20px;
+font-size: 20px;
 }
 .tbs button:hover{
   color: white;
@@ -580,7 +591,8 @@ padding: 0px 10px;
   color: white;
 background-color: rgb(33,37,41);
 border: 1px solid grey;
-padding: 0px 10px;
+padding: 10px 20px;
+font-size: 20px;
 }
 .ngp button:hover{
   color: white;
