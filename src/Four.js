@@ -95,7 +95,7 @@ export default function Four() {
   </div>
 </div>
 </div>
-<button>See more news</button>
+<button><a href="https://www.bing.com/ck/a?!&&p=f87773db393214e2JmltdHM9MTY2MzYzMjAwMCZpZ3VpZD0yY2QwZjQ1ZS0zMWMyLTZmNmMtMTMxYy1lNWE5MzA1OTZlYTAmaW5zaWQ9NTIwMQ&ptn=3&hsh=3&fclid=2cd0f45e-31c2-6f6c-131c-e5a930596ea0&u=a1aHR0cHM6Ly90aW1lc29maW5kaWEuaW5kaWF0aW1lcy5jb20vdG9waWMvZ3ltL25ld3M&ntb=1">See more news</a></button>
 </div>
    </>
   )

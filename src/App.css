@@ -19,6 +19,7 @@ ul{
 li{
   padding: 15px;
   font-size: 27px;
+  color: black;
 }
 .rest{
   color: black;
@@ -29,9 +30,10 @@ li{
 }
 a{
   text-decoration: none;
-  color: black;
+ color: black;
 }
-a:hover{
+li
+:hover{
   color: black;
   text-shadow: 0px 0px 4px red;
 }
@@ -41,6 +43,7 @@ background-image: url(E:\Fitness\gym\girl-resting-after-exercises-gym_152625-820
 height: 875px;
 text-align: center;
 padding: 0px 34px;
+width: 100%;
 }
 .head h1{
   font-size: 4.5rem;
@@ -55,6 +58,12 @@ padding: 0px 34px;
   justify-content: center;
   flex-direction: column;
 }
+.head button{
+  background-color: skyblue;
+ border-radius: 14px;
+font-size: 2rem;
+padding: 5px 10px;
+}
 .photos{
   display: flex;
   justify-content: space-around;
@@ -62,7 +71,7 @@ padding: 0px 34px;
   color: aliceblue;
 }
 .classic{
-  background-image: url(E:\Fitness\gym\healthy-woman-running-track-gym_1303-22549.jpg);
+  background-image: url(E:\Fitness\gym\src\Assets\Group 135.jpg);
   height: 220px;
   width: 336px;
   display: flex;
@@ -72,7 +81,7 @@ padding: 0px 34px;
   box-shadow: 0px 0px 25px chocolate;
 }
 .standard{
-  background-image: url(E:\Fitness\gym\fitness-days-gorgeous-blonde-woman-gym-her-weekend-time_146671-17084.jpg);
+  background-image: url(E:\Fitness\gym\src\Assets\Group 136.jpg);
   height: 220px;
   width: 336px;
   display: flex;
@@ -82,7 +91,7 @@ padding: 0px 34px;
   box-shadow: 0px 0px 25px purple;
 }
 .premium{
-  background-image: url(E:\Fitness\gym\intensive-workout-with-kettlebell_1098-14426.jpg);
+  background-image: url(E:\Fitness\gym\src\Assets\Group 137.jpg);
   height: 220px;
   width: 336px;
   display: flex;
@@ -208,8 +217,7 @@ padding: 0px 34px;
   justify-content: center;
  position: relative; 
  top: 24rem;
- 
-}
+ }
 .upperTwo{
   background-image: url(E:\Fitness\gym\woman-doing-exercise-gym_116124-203.jpg);
   height: 500px;
@@ -324,7 +332,7 @@ opacity: 0.5;
  height: 55px;
  border-radius: 14px;
  border: 0px;
- padding: 0px 25px;
+ /* padding: 0px 25px; */
  font-size: 30px;
 }
 .teambtn button:hover{
@@ -420,6 +428,8 @@ background-color: black;
   color: lightyellow;
   font-size: 18px;
 }
+.news a{
+color: white;}
 .news button{
   padding: 10px 35px;
   margin: 50px 4px;
@@ -443,9 +453,6 @@ font-size: 32px;
 .new{
   text-align: center;
 }
-/* .myLogo{
-  font-size: 2rem;
-} */
 .whatsapp{
   padding: 0px 60px;
   color: black;
@@ -535,7 +542,7 @@ padding-bottom: 20rem;
   display: flex;
   position: relative;
   top: 15rem;
-  margin-left: 12rem;
+  margin-left: 9rem;
 }
 .lastLogo img{
   border-radius: 50%;
@@ -546,8 +553,8 @@ padding-bottom: 20rem;
 }
 .quickContacts{
   margin: 0rem 30rem;
-  margin-left: 30rem;
-  margin-right: 10rem;
+  margin-left: 20rem;
+  margin-right: 12rem;
 }
 .popularTags{
   margin: 0rem 5rem;
@@ -563,37 +570,46 @@ padding-bottom: 20rem;
   color: gainsboro;
 }
 .popularButtons{
-  margin: 50px 10px;
+  margin: 70px 10px;
   font-size: 30px;
+}
+.wcs{
+  display: flex;
 }
 .wcs button{
   color: white;
 background-color: rgb(33,37,41);
 border: 1px solid grey;
-padding: 10px 20px;
+padding: 10px 10px;
 font-size: 20px;
 }
 .wcs button:hover{
   color: white;
   background-color: skyblue;
 }
+.tbs{
+  display: flex;
+}
 .tbs button{
   margin: 10px 4px;
   color: white;
   background-color: rgb(33,37,41);
   border: 1px solid grey;
-  padding: 10px 20px;
+  padding: 10px 10px;
 font-size: 20px;
 }
 .tbs button:hover{
   color: white;
   background-color: skyblue;
 }
+.ngp{
+  display: flex;
+}
 .ngp button{
   color: white;
 background-color: rgb(33,37,41);
 border: 1px solid grey;
-padding: 10px 20px;
+padding: 10px 10px;
 font-size: 20px;
 }
 .ngp button:hover{
@@ -677,4 +693,300 @@ font-size: 20px;
 }
 .formImage{
   margin-top: 1rem;
+}
+.popularButtons a{
+  color: white;
+}
+.social a{
+  padding: 2px 0px;
+  color: skyblue;
+}
+/* .social a:hover{
+  color: white;
+} */
+.teambtn:hover{
+color: white;
+}
+.teambtn button:hover{
+color: black;
+background-color: cadetblue;
+}
+.teambtn a:hover{
+  color: black;
+}
+.headerIcons{
+  display: flex;
+  flex-direction: column;
+  margin-right: 131rem;
+/* margin-right: 27rem; */
+margin-left: 1rem;
+}
+.globe{
+  height: 70px;
+width: 30px;
+background-color: white;
+border-bottom: 2px solid skyblue;
+}
+.globe svg{
+  height: 25px;
+  width: 25px;
+  color: black;
+  position: relative;
+  top: 20px;
+}
+.globe svg:hover{
+  color: blue;
+}
+.fb{
+/* margin: 5px 0px; */
+height: 70px;
+width: 30px;
+background-color: white;
+border-bottom: 2px solid skyblue;
+
+}
+.fb svg:hover{
+  color: blue;
+}
+.fb svg{
+  height: 25px;
+width: 25px;
+color: black;
+position: relative;
+top: 20px;
+}
+.twtr{
+  /* margin: 5px 0px; */
+  height: 70px;
+  width: 30px;
+  background-color: white;
+  border-bottom: 2px solid skyblue;
+
+}
+.twtr svg{
+  height: 25px;
+width: 25px;
+color: black;
+position: relative;
+top: 20px;
+}
+.twtr svg:hover{
+  color: blue;
+}
+.igram{
+  height: 70px;
+width: 30px;
+background-color: white;
+}
+.igram svg{
+  height: 25px;
+width: 25px;
+color: black;
+position: relative;
+top: 20px;
+}
+.igram svg:hover{
+  color: blue;
+}
+.upperOne .cardioSpan{
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(40, 145, 201);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  height: 350px;
+    position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -180px;
+}
+.cardioSpan h6{
+  padding: 3px 8px;
+}
+.upperOne p:hover .cardioSpan{
+  visibility: visible;
+  opacity: 0.7;
+}
+.upperTwo .advanceSpan{
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(40, 145, 201);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  height: 350px;
+    position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -180px;
+}
+.advanceSpan h6{
+  padding: 3px 8px;
+}
+.upperTwo p:hover .advanceSpan{
+  visibility: visible;
+  opacity: 0.7;
+}
+.upperThree .cycleSpan{
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(40, 145, 201);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  height: 350px;
+    position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -180px;
+}
+.cycleSpan h6{
+  padding: 3px 8px;
+}
+.upperThree p:hover .cycleSpan{
+  visibility: visible;
+  opacity: 0.7;
+}
+.lowerOne .bodySpan{
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(40, 145, 201);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  height: 350px;
+    position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -180px;
+}
+.bodySpan h6{
+  padding: 3px 8px;
+}
+.lowerOne p:hover .bodySpan{
+  visibility: visible;
+  opacity: 0.7;
+}
+.lowerTwo .yogaSpan{
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(40, 145, 201);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  height: 350px;
+    position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -180px;
+}
+.yogaSpan h6{
+  padding: 3px 8px;
+}
+.lowerTwo p:hover .yogaSpan{
+  visibility: visible;
+  opacity: 0.7;
+}
+.lowerThree .weightSpan{
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(40, 145, 201);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  height: 350px;
+    position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -180px;
+}
+.weightSpan h6{
+  padding: 3px 8px;
+}
+.lowerThree p:hover .weightSpan{
+  visibility: visible;
+  opacity: 0.7;
+}
+.sixPhotos h6{
+  font-size: 20px;
+}
+.weightSpan button{
+  margin-top: 4rem;
+  border: 0px;
+  border-radius: 23px;
+  font-size: 17px;
+  padding: 8px 8px;
+}
+.cardioSpan button{
+  margin-top: 4rem;
+  border: 0px;
+  border-radius: 23px;
+  font-size: 17px;
+  padding: 8px 8px;
+}
+.advanceSpan button{
+  margin-top: 4rem;
+  border: 0px;
+  border-radius: 23px;
+  font-size: 17px;
+  padding: 8px 8px;
+}
+.cycleSpan button{
+  margin-top: 4rem;
+  border: 0px;
+  border-radius: 23px;
+  font-size: 17px;
+  padding: 8px 8px;
+}
+.yogaSpan button{
+  margin-top: 4rem;
+  border: 0px;
+  border-radius: 23px;
+  font-size: 17px;
+  padding: 8px 8px;
+}
+.bodySpan button{
+  margin-top: 4rem;
+  border: 0px;
+  border-radius: 23px;
+  font-size: 17px;
+  padding: 8px 8px;
+}
+.globe a{
+  color: black;
+  padding: 0px 0px;
+}
+.fb a{
+  color: black;
+  padding: 0px 0px;
+}
+.twtr a{
+  color: black;
+  padding: 0px 0px;
+}
+.igram a{
+  color: black;
+  padding: 0px 0px;
+}
+.customizeIcon a{
+  padding: 0px 0px;
+}
+.customizedIcon2 a{
+  padding: 0px 0px;
+}
+.customizedIcon3 a{
+  padding: 0px 0px;
 }

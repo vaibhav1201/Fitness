@@ -1,7 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 
 export default function Three() {
- 
+ const [texts, setTexts] = useState("Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis...");
+ const [readBtn, setReadBtn] = useState('Read more')
+const handleRead = () =>{
+if (texts === "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis..."){
+setTexts("Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, veritatis?")
+setReadBtn('Read less')
+}
+else{
+  setTexts("Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis...")
+setReadBtn('Read more')
+}
+}
   return (
     <>
      <div className="fullThree">
@@ -18,22 +29,39 @@ export default function Three() {
         <div className="sixPhotos">
           <div className="upper">
             <div className="upperOne">
-              <p>cardio fitness
-              </p>
-            </div>
+              <p>cardio fitness <span className="cardioSpan"><h3>cardio fitness</h3>
+              <h6>{texts}</h6>
+                <button onClick={handleRead}>{readBtn}</button>
+              </span></p>
+               </div>
             <div className="upperTwo">
-                <p>Advanced gymnastics</p>
+                <p>Advanced gymnastics<span className="advanceSpan"><h3>Advanced Gymnastics</h3>
+                <h6>{texts}</h6>
+                <button onClick={handleRead}>{readBtn}</button>
+              </span></p>
             </div>
             <div className="upperThree">
-                <p>cycle training</p>
+                <p>cycle training<span className="cycleSpan"><h3>Cycle training</h3>
+                <h6>{texts}</h6>
+                <button onClick={handleRead}>{readBtn}</button>
+              </span></p>
             </div>
           </div>
           <div className="lower">
             <div className="lowerOne">
-            <p>Body Attack</p>
+            <p>Body Attack<span className="bodySpan"><h3>Body Attack</h3>
+            <h6>{texts}</h6>
+            <button onClick={handleRead}>{readBtn}</button>
+              </span></p>
             </div>
-            <div className="lowerTwo"><p>Yoga pilates</p></div>
-            <div className="lowerThree"><p>Weight lifting</p></div>
+            <div className="lowerTwo"><p>Yoga pilates<span className="yogaSpan"><h3>Yoga pilates</h3>
+            <h6>{texts}</h6>
+            <button onClick={handleRead}>{readBtn}</button>
+              </span></p></div>
+            <div className="lowerThree"><p>Weight lifting<span className="weightSpan"><h3>Weight lifting</h3>
+            <h6>{texts}</h6>
+            <button onClick={handleRead}>{readBtn}</button>
+              </span></p></div>
           </div>
         </div>
       
@@ -90,7 +118,7 @@ export default function Three() {
         </div>
        </div>
       <div className="teambtn">
-     <button>See the whole team</button>
+     <button><a href="https://www.bing.com/ck/a?!&&p=624ec08bb664fe49JmltdHM9MTY2MzYzMjAwMCZpZ3VpZD0yY2QwZjQ1ZS0zMWMyLTZmNmMtMTMxYy1lNWE5MzA1OTZlYTAmaW5zaWQ9NTIyMg&ptn=3&hsh=3&fclid=2cd0f45e-31c2-6f6c-131c-e5a930596ea0&u=a1aHR0cHM6Ly93d3cuYnJpdGlzaC1neW1uYXN0aWNzLm9yZy9neW1uYXN0cy9kaXNjaXBsaW5lcy90ZWFtZ3ltLzM3NC1neW1uYXN0c3BhcmVudHMvZ3ltbmFzdGljc2Rpc2NpcGxpbmVzLzQ3LWludHJvZHVjdGlvbjc&ntb=1">See the whole team</a></button>
       </div>
      </div>
     </>
