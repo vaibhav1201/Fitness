@@ -1,3 +1,584 @@
+
+@media screen and (max-width:500px){
+  .logo{
+    display: inline;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+.nav{
+  display: block;
+}
+.copyright h5{
+  color: grey;
+  text-align: center;
+  margin: 1rem 0rem;
+  font-size: 14px;
+}
+.lastNav a{
+  padding: 0 9px;
+  font-size: 12px;
+}
+.down{
+  padding-bottom: 0rem !important;
+}
+.quickContacts{
+  margin-left: 12px !important;
+  /* margin-right: 12rem; */
+  margin-right: 3px !important;
+}
+.quickContacts .form{
+  height: 300px;
+  width: 300px;
+}
+.quickContacts h4{
+  margin: 1rem 0rem !important;
+  font-size: 10px !important;
+}
+.quickContacts p{
+  font-size: 8px !important;
+  margin-bottom: 1rem !important;
+}
+.lastLogo{
+  margin-left: 0 !important;
+  position: relative;
+  top: 7rem !important;
+  display: none !important;
+}
+.lastLogo h1{
+  font-size: 12px;
+}
+.popularTags{
+  display: block !important;
+  margin: 0rem 1rem !important;
+}
+.customizedIcon2{
+  width: 20px !important;
+  height: 25px !important;
+  margin: 0px 4px !important;
+}
+.customizeIcon{
+  width: 20px !important;
+  height: 25px !important;
+}
+.customizedIcon3{
+  width: 20px !important;
+  height: 25px !important;
+}
+.popularButtons{
+  margin: 2rem 0rem !important;
+}
+.popularTags h1{
+  font-size: 14px;
+}
+.wcs button{
+  padding: 2px 1px !important;
+}
+.popularButtons a{
+  padding: 0px 2px;
+  font-size: 11px;
+}
+.tbs button{
+  padding: 0px 2px !important;
+}
+.ngp button{
+  padding: 0px 2px !important;
+}
+.formImage img{
+  height: 250px !important;
+  width: 100% !important;
+  display: none;
+}
+.form{
+  /* padding: 1px 109px !important; */
+  /* margin-left: -100px !important; */
+  text-align: center !important;
+  /* background-image: url(E:\Fitness\gym\src\Assets\female-bodybuilder-training-with-dumbbells.jpg);
+  background-repeat: no-repeat !important; */
+  width: 100% !important;
+  margin-top: 2rem !important;
+}
+.contactUs{
+  margin-bottom: -7rem;
+}
+.form h1{
+  font-size: 35px !important;
+  margin-left: -12rem !important;
+  padding: 0px 0px !important;
+}
+.form select{
+  width: 267px;
+  margin-left: -13rem !important;
+  font-size: 18px !important;
+}
+.email input{
+  width: 19rem !important;
+  height: 40px !important;
+  font-size: 22px !important;
+  margin: 0px 0px !important;
+  padding: 0px 5px !important;
+  margin-left: -13rem !important;
+}
+textarea{
+  margin: 15px 0px !important;
+  font-size: 18px !important;
+  width: 300px;
+  height: 180px;
+  margin-left: -13rem !important;
+}
+.form button{
+  width: 19rem !important;
+  height: 30px !important;
+  font-size: 19px !important;
+  margin: 0px 0px !important;
+  position: relative;
+  right: 13rem !important;
+}
+.info h4{
+  position: relative;
+  right: 13rem !important;
+  font-size: 14px !important;
+}
+.social{
+  display: flex;
+  position: relative;
+  right: 7rem;
+  margin-top: -2rem;
+}
+.social a{
+  margin: 0px 3px;
+}
+.news{
+  display: block;
+  margin: 0px 0px !important;
+}
+.news h1{
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.newsPhotos{
+  display: block !important;
+  padding: 0px 0px !important;
+}
+.oneNews{
+  /* padding: 18px 2px !important; */
+  font-size: 11px;
+  margin-bottom: -1rem !important;
+}
+.oneNews img{
+  width: 234px;
+  margin: -1rem 0rem;
+}
+.oneNews h3{
+  padding: 25px 1px !important;
+  font-size: 19px;
+}
+.oneNews p{
+  margin-top: -1rem !important;
+  font-size: 12px !important;
+}
+.twoNews{
+  /* padding: 18px 2px !important; */
+  font-size: 11px;
+  margin-bottom: -1rem !important;
+  border-top: 3px dashed skyblue;
+
+}
+.twoNews img{
+  width: 234px;
+  margin: -1rem 0rem;
+}
+.twoNews h3{
+  padding: 25px 1px !important;
+  font-size: 19px;
+}
+.twoNews p{
+  margin-top: -1rem !important;
+  font-size: 12px !important;
+}
+.threeNews{
+  /* padding: 18px 2px !important; */
+  font-size: 11px;
+  margin-bottom: -1rem !important;
+  border-top: 3px dashed skyblue;
+
+}
+.threeNews img{
+  width: 234px;
+  margin: -1rem 0rem;
+}
+.threeNews h3{
+  padding: 25px 1px !important;
+  font-size: 19px;
+}
+.threeNews p{
+  margin-top: -1rem !important;
+  font-size: 12px !important;
+}
+.news a{
+  padding: 0rem 1rem !important;
+}
+.news button{
+  padding: 8px 2px !important;
+  font-size: 16px !important;
+  margin-top: 1rem !important;
+  margin-bottom: 30px !important;
+}
+.slide{
+  padding: 6px 0px !important;
+}
+.lorem{
+  font-size: 13px !important;
+}
+.roundImage img{
+  height: 60px !important;
+  width: 60px !important;
+}
+.slide h1{
+  padding-top: 2rem;
+}
+.teams{
+  padding: 0px 0px !important;
+}
+.teams h1{
+  font-size: 2rem !important;
+  margin-top: -4rem !important;
+}
+.teams p{
+  margin: 3px 30px !important;
+  font-size: 14px !important;
+}
+.threePhotos{
+  display: block !important;
+}
+.onePhoto{
+  padding: 0px 0px !important;
+  margin-bottom: 2rem !important;
+}
+.onePhoto h1{
+  font-size: 22px !important;
+
+}
+.onePhoto img{
+height: 350px !important;
+width: 350px !important;
+position: relative;
+left: -92px;
+}
+.twoPhoto{
+  padding: 0px 0px !important;
+  margin-bottom: 2rem !important;
+}
+.twoPhoto h1{
+  font-size: 22px !important;
+
+}
+.twoPhoto img{
+height: 350px !important;
+width: 350px !important;
+position: relative;
+left: -92px;
+}
+.threePhoto{
+  padding: 0px 0px !important;
+  margin-bottom: 2rem !important;
+}
+.threePhoto h1{
+  font-size: 22px !important;
+
+}
+.threePhoto img{
+height: 350px !important;
+width: 350px !important;
+position: relative;
+left: -92px;
+}
+.classes h1{
+  font-size: 42px !important;
+}
+.hp p{
+  font-size: 20px !important;
+  padding: 0px 5px !important;
+}
+.classes p{
+  font-size: 14px !important;
+}
+.upper{
+  display: block !important;
+}
+.upper p{
+  font-size: 30px !important;
+}
+.upperOne{
+height: 356px !important;
+width: 308px !important;
+margin-bottom: 3rem !important;
+}
+.upperOne p{
+  position: relative;
+  top: 17rem !important;
+}
+.sixPhotos h6{
+  font-size: 15px !important;
+}
+.upperOne .cardioSpan{
+  width: 307px !important;
+  height: 250px !important;
+  margin-left: -181px !important;
+  left: 59% !important;
+}
+.cardioSpan button{
+  margin-top: 0px !important;
+}
+.upperTwo{
+  height: 356px !important;
+  width: 308px !important;
+  margin-bottom: 3rem !important;
+  }
+  .upperTwo p{
+    position: relative;
+    top: 17rem !important;
+  }
+.upperTwo .advanceSpan{
+  width: 307px !important;
+  height: 250px !important;
+  margin-left: -181px !important;
+  left: 59% !important;
+}
+.advanceSpan button{
+  margin-top: 0px !important;
+}
+.upperThree{
+  height: 356px !important;
+  width: 308px !important;
+  margin-bottom: 3rem !important;
+  }
+  .upperThree p{
+    position: relative;
+    top: 17rem !important;
+  }
+.upperThree .cycleSpan{
+  width: 307px !important;
+  height: 250px !important;
+  margin-left: -181px !important;
+  left: 59% !important;
+}
+.cycleSpan button{
+  margin-top: 0px !important;
+}
+.lower{
+  display: block !important;
+}
+.lower p{
+  font-size: 30px !important;
+}
+.lowerOne{
+  height: 356px !important;
+  width: 308px !important;
+  margin-bottom: 3rem !important;
+  }
+  .lowerOne p{
+    position: relative;
+    top: 17rem !important;
+    color: white;
+  }
+.lowerOne .bodySpan{
+  width: 307px !important;
+  height: 250px !important;
+  margin-left: -181px !important;
+  left: 59% !important;
+}
+.bodySpan button{
+  margin-top: 0px !important;
+}
+.lowerTwo{
+  height: 356px !important;
+  width: 308px !important;
+  margin-bottom: 3rem !important;
+  }
+  .lowerTwo p{
+    position: relative;
+    top: 17rem !important;
+    color: white;
+  }
+.lowerTwo .yogaSpan{
+  width: 307px !important;
+  height: 250px !important;
+  margin-left: -181px !important;
+  left: 59% !important;
+}
+.yogaSpan button{
+  margin-top: 0px !important;
+}
+.lowerThree{
+  height: 356px !important;
+  width: 308px !important;
+  margin-bottom: 3rem !important;
+  }
+  .lowerThree p{
+    position: relative;
+    top: 17rem !important;
+  }
+.lowerThree .weightSpan{
+  width: 307px !important;
+  height: 250px !important;
+  margin-left: -181px !important;
+  left: 59% !important;
+}
+.weightSpan button{
+  margin-top: 0px !important;
+}
+.teambtn button{
+  height: 51px !important;
+  font-size: 21px !important;
+}
+.teambtn button a{
+  padding: 0rem 1rem !important;
+}
+.photos{
+  display: block !important;
+}
+.grid{
+  display: block !important;
+}
+.text{
+  padding: 37px 20px !important;
+  width: 100% !important;
+}
+.text h5{
+  padding: 18px 5px !important;
+  font-size: 15px !important;
+}
+.text h4{
+  font-size: 19px;
+  padding: 7px 3px !important;
+}
+.text button{
+  font-size: initial !important;
+  position: relative;
+  left: 6rem;
+}
+.diff{
+  display: block !important;
+}
+/* .fitness{
+  height: 500px !important;
+  width: 500px !important;
+} */
+.fitness{
+  /* display: block !important; */
+  height: 329px !important;
+width: 355px !important;
+padding: 0px 3px !important;
+position: relative;
+right: -1rem;
+top: 0px !important;
+margin-bottom: 2rem;
+}
+.both{
+  display: block !important;
+}
+.weight{
+height: 329px !important;
+width: 355px !important;
+padding: 0px 3px !important;
+position: relative;
+right: -1rem;
+}
+.photos{
+  padding: 0px 0px !important;
+  margin: 2rem 2rem;
+}
+.weightt{
+  height: 329px !important;
+  width: 355px !important;
+  padding: 0px 3px !important;
+  position: relative;
+  right: -1rem;
+  }
+  .standard{
+    margin: 2rem 0rem !important;
+  }
+  .head{
+    height: 526px !important;
+    width: 100% !important;
+    background-image: url(E:\Fitness\gym\brunette-woman-doing-battle-rope-training_7502-4793_auto_x2.jpg) !important;
+    background-repeat: no-repeat;
+    margin-bottom: -2rem;
+  }
+  .head h1{
+    font-size: 27px !important;
+    margin: 1rem 0rem !important;
+    color: honeydew;
+  }
+  .head p{
+    font-size: 13px !important;
+  }
+  .head button{
+    padding: 4px 9px !important;
+    font-size: 15px !important;
+    border: 1px solid skyblue;
+  }
+  /* .headerIcons{
+    position: relative !important;
+    left: 5rem;
+    color: black !important;
+  } */
+  .logo{
+    font-size: 25px !important;
+    margin-left: 41px;
+    font-size: 14px;
+    padding: 4px 7px;
+  position: relative;    
+  left: 3rem;
+  color: purple !important;
+  }
+  .nav a{
+    padding: 0px 0px !important;
+  }
+  .nav ul{
+    display: block !important;
+    margin-top: 21px !important;
+    margin-right: 30px !important;
+  }
+  .nav ul li{
+    text-align: center !important;
+    font-size: 18px !important;
+    margin: 5px 0px !important;
+    padding: 0px !important;
+    color: black;
+    background-color: skyblue;
+  }
+  .rest{
+    padding: 10px 15px !important;
+    position: relative;
+    left: 6rem !important;
+    top: -1rem !important;
+    font-size: 12px !important;
+  }
+  .rest svg{
+    color: cadetblue;
+  }
+  .myNavbar{
+    display: block !important;
+  }
+}
+.myNavbar{
+  display: flex;
+  justify-content: space-between;
+}
+.myNavbar li a{
+  padding: 0rem 2rem;
+}
+/* .myNav li{
+  padding: 0px 0px;
+  font-size: 25px;
+  position: relative;
+  left: 13rem;
+}
+.myNav a{
+  padding: 0rem 2rem;
+} */
 .logo{
   color: black;
   font-size: 27px;
@@ -568,6 +1149,9 @@ padding-bottom: 20rem;
 }
 .quickContacts h4, p{
   color: gainsboro;
+}
+.quickContacts p{
+  font-size: 12px;
 }
 .popularButtons{
   margin: 70px 10px;

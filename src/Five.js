@@ -28,7 +28,7 @@ export default function Five() {
 <button>Submit</button>
  </form>
 <div className="info">
-    <h4>Email@example.com  |  +002-010-66269765</h4>
+    <h4>Email@example.com|&nbsp;+002&nbsp;-010-&nbsp;66269765</h4>
 </div>
 <div className="social">
 <a href="https://www.bing.com/ck/a?!&&p=caf764b80b860949JmltdHM9MTY2MzYzMjAwMCZpZ3VpZD0yY2QwZjQ1ZS0zMWMyLTZmNmMtMTMxYy1lNWE5MzA1OTZlYTAmaW5zaWQ9NTE4Mw&ptn=3&hsh=3&fclid=2cd0f45e-31c2-6f6c-131c-e5a930596ea0&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
